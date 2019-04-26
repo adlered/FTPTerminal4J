@@ -37,7 +37,7 @@ public class FTPEasy {
             Thread.sleep(200);
         } catch (Exception e) {
         }
-        new Writer("PASS" + pass);
+        new Writer("PASS " + pass);
         new Listener().start();
     }
 }
