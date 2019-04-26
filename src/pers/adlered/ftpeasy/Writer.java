@@ -35,7 +35,8 @@ public class Writer {
                     new Outputer("?", "pwd - Get current path");
                     new Outputer("?", "mkd (dir) - Remove a directory");
                     new Outputer("?", "dele (file) - Remove a file");
-                    new Outputer("?", "rn (filename) (targetFilename) - rename file/folder");
+                    new Outputer("?", "rn (filename) (targetFilename) - Rename file/folder");
+                    new Outputer("?", "quit - Disconnect and exit client");
                     break;
                 default:
                     String outputText = text;
