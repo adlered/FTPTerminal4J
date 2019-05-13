@@ -5,6 +5,10 @@ import jdk.internal.util.xml.impl.Input;
 import java.io.*;
 import java.net.Socket;
 
+/**
+For list / retr / stor
+*/
+
 public class Downloader extends Thread {
     private String ip;
     private int port;
