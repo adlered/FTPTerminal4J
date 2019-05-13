@@ -48,7 +48,7 @@ public class Downloader extends Thread {
                     File file = new File(filename);
                     FileOutputStream fileOutputStream = new FileOutputStream(file);
                     BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(fileOutputStream);
-                    byte[] bytes = new byte[1024];
+                    byte[] bytes = new byte[1];
                     while (bufferedInputStream.read(bytes) != -1) {
                         bufferedOutputStream.write(bytes, 0, bytes.length);
                         bufferedOutputStream.flush();
